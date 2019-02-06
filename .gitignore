@@ -2,3 +2,4 @@ save/*
 venv/*
 logs/*
 __pycache__/*
+*.txt

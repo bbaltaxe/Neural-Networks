@@ -1,0 +1,4 @@
+save/*
+venv/*
+logs/*
+__pycache__/*

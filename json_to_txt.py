@@ -12,10 +12,10 @@ def main():
 
     with open('reviews.txt', 'w') as cfile: 
         for review in review_dictionary['items']:
-
+            #to filter on a parameter, swap the following two lines for the one being used now and change file name above
+            #if review['overall'] == 5.0:
+            #    cfile.write('\n\n'+BeautifulSoup(review['reviewText']).text+'\n')
+            
             cfile.write('\n\n'+BeautifulSoup(review['reviewText']).text+'\n')
-            #cfile.write('\n\n'+json.dumps(review['reviewText'].encode('ascii','ignore').decode(), indent=5)+'\n')
-
-
 if __name__ == "__main__":
     main()

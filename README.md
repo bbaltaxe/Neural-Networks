@@ -1,7 +1,7 @@
 # CM202 Project 2
 For this project we are required to set up an RNN and an autoencoder. 
 
-##RNN 
+## RNN 
 For our RNN we decided to generate video game reviews. To do this, we use hunkim's word level rnn. https://github.com/hunkim/word-rnn-tensorflow
 
 The dataset we chose is 231780 video game reviews from jmcauley's amazon product dataset http://jmcauley.ucsd.edu/data/amazon/. This dataset has some formating errors, so beware that you will need to reformat the json in order to use it as expected. 
@@ -19,7 +19,7 @@ We did fully train a network on a weeks worth of livestream chat data (65535 lin
 `1 Corinthians 15:22 For as in Adam all die, so makes no actually good `
 
 
-###To Run 
+### To Run 
 `python train.py -data_dir PATH_TO_YOUR_DATA `
 
 And wait! 

@@ -63,3 +63,8 @@ To run it now:
 
 
 ![IMAGE ALT TEXT HERE](https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/52029348_338673123412319_8416514240768114688_n.jpg?_nc_cat=107&_nc_ht=scontent-lax3-2.xx&oh=1fc63001dcc71f65836de3b5ebe6a27c&oe=5CF4AD86)
+
+Blue is the original audio file. Orange is the reconstruction. 
+Theses are obviously not very good... Because our run failed...Repeatedly...After many hours of running...Tears were shed....
+
+What you're seeing here is just an NN, not a RNN because unfortunately it is only running through once. 

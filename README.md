@@ -31,3 +31,6 @@ To use a beam search to retrieve your sample
 
 `python sample.py --pick 2 --width SOME_WIDTH`
 
+
+[![IMAGE ALT TEXT HERE](https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/51703042_2121234677913025_624719816590098432_n.jpg?_nc_cat=110&_nc_ht=scontent-lax3-2.xx&oh=c3f3c2558f8445469c1cc4397e00566c&oe=5CDB60BD)]
+

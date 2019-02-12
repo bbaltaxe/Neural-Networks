@@ -31,6 +31,35 @@ To use a beam search to retrieve your sample
 
 `python sample.py --pick 2 --width SOME_WIDTH`
 
+## Music Autoencoder
 
-[![IMAGE ALT TEXT HERE](https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/51703042_2121234677913025_624719816590098432_n.jpg?_nc_cat=110&_nc_ht=scontent-lax3-2.xx&oh=c3f3c2558f8445469c1cc4397e00566c&oe=5CDB60BD)]
+Credit to this blog post
+https://blog.goodaudience.com/using-tensorflow-autoencoders-with-music-f871a76122ba
 
+Git found here:
+https://github.com/wezleysherman/TFMusicAudioEncoder
+
+Download a decent Mp3 or wav data set such as this one
+https://zenodo.org/record/1101082#.W5v6BBRlBhE
+
+If you are working with mp3 then they need to be converted. Thankfully there's a handy dandy python def in the process data function. Have a folder named audio and another named audio_wav for this to occur.
+
+Make sure you have all the nessessary dependancy's. Things like pydub and ffmpeg were things I was missing. FFmpeg was something that needed to be manually installed into the contrib folder of your tensorflow enviroment. 
+
+Warning: ffmpeg is buggy and very version sensitive. Depending on your computer enviroment you may need to troubleshoot. Here's a link on how to do that - https://www.tensorflow.org/api_guides/python/contrib.ffmpeg
+
+In python, Import process_data, then run process_data.convert_mp3_to_wav()
+ 
+To run it now:
+1. Create a folder named 'output'
+2. Put all WAV files for training in the audio_wav folder
+3. Open up your terminal within the folder and run python3 encoder.py
+4. Pray your computer shines on you with favor.
+
+
+
+![IMAGE ALT TEXT HERE](https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/51703042_2121234677913025_624719816590098432_n.jpg?_nc_cat=110&_nc_ht=scontent-lax3-2.xx&oh=c3f3c2558f8445469c1cc4397e00566c&oe=5CDB60BD)
+
+
+
+![IMAGE ALT TEXT HERE](https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/52029348_338673123412319_8416514240768114688_n.jpg?_nc_cat=107&_nc_ht=scontent-lax3-2.xx&oh=1fc63001dcc71f65836de3b5ebe6a27c&oe=5CF4AD86)

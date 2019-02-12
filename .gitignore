@@ -1,5 +1,7 @@
 save/*
+save-chat/*
 venv/*
 logs/*
 __pycache__/*
 *.txt
+auto_encoder/*
